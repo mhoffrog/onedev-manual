@@ -1,5 +1,3 @@
-# Scripting
-
 Scripting can be used in OneDev in a number of places to achieve flexibility. The script needs to be written in [groovy](http://groovy-lang.org/) and the variable _onedev_ is passed to the script. 
 
 ### Scripting when define issue custom field  
