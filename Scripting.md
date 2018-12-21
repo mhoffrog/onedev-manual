@@ -10,43 +10,43 @@ To achieve this:
 
 1. Define a custom field named _Module_ with type set to _Choice_, and the _Available Choices_ option defined to execute below script:
 
-    ```groovy
-    import io.onedev.server.manager.GroupManager;
+```groovy
+import io.onedev.server.manager.GroupManager;
 
-    def choices = [:];
-    for (group in onedev.getInstance(GroupManager.class).query()) {
-        choices.put(group.name, null);
-    }
+def choices = [:];
+for (group in onedev.getInstance(GroupManager.class).query()) {
+    choices.put(group.name, null);
+}
 
-    return choices;
-    ````
+return choices;
+````
 2. Define a custom field named _Assignee_ with type set to _User choice_, and the _Available Choices_ option defined to execute below script:
 
-    ```groovy
+```groovy
 import io.onedev.server.manager.GroupManager;
 
 def module = onedev.editContext.getInputValue("Module");
 
 def choices = [];
 if (module != null) {
-	for (user in onedev.getInstance(GroupManager.class).find(module).members) {
-		choices.add(user.facade);
-	}
+    for (user in onedev.getInstance(GroupManager.class).find(module).members) {
+        choices.add(user.facade);
+    }
 }	
 return choices;
-    ```    
+```    
     
 3. Define _Default Value_ of the _Assignee_ field to execute below script:
 
-    ```groovy
+```groovy
 import io.onedev.server.manager.GroupManager;
 
 def module = onedev.editContext.getInputValue("Module");
 
 if (module == "Front End")
-	return "tracy";
+    return "tracy";
 else if (module == "Back End")
-	return "robin";
+    return "robin";
 else
-	return null;
-    ```
+    return null;
+```
