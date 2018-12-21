@@ -1,4 +1,4 @@
 # Appendix
 -----------------
 
-1. [Diff Selection](diff-selection.md)
+1. [Diff Selection](Diff-Selection.md)

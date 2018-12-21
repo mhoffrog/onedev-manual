@@ -37,7 +37,7 @@ Your system running OneDev should have at least 2G physical memory. If you have 
 ### Further Reading
 
 Below steps are not necessary for first-time set up, but you may want to check them out for production use:
- * [Run as System Service](run-as-system-service.md)
- * [Use External Database](use-external-database.md)
- * [Reverse Proxy Set Up](reverse-proxy-setup.md)
- * [Security Management](security-management.md)
+ * [Run as System Service](Run-As-System-Service.md)
+ * [Use External Database](Use-External-Database.md)
+ * [Reverse Proxy Set Up](Reverse-Proxy-Setup.md)
+ * [Security Management](Security-Management.md)

@@ -3,7 +3,7 @@
 
 ### Control Anonymous Access and Self Registration
 
-Anonymous access and self registration can be controlled as below from [administration menu](server-administration-menu.md):
+Anonymous access and self registration can be controlled as below from [administration menu](Server-Administration-Menu.md):
 
 ![security-setting.png](images/security-setting.png)
 

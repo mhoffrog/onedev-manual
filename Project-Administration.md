@@ -1,9 +1,9 @@
 # Project Administration
 ---------------------------
 
-* [Create New Project](create-new-project.md)
-* [Fork Existing Project](fork-existing-project.md)
-* [Project Authorization](project-authorization.md)
-* [Branch and Tag Protection](branch-and-tag-protection.md)
-* [Continuous Integration Set Up](ci-setup.md)
-* [Transform Commit Message](transform-commit-message.md)
+* [Create New Project](Create-New-Project.md)
+* [Fork Existing Project](Fork-Existing-Project.md)
+* [Project Authorization](Project-Authorization.md)
+* [Branch and Tag Protection](Branch-And-Tag-Protection.md)
+* [Continuous Integration Set Up](Ci-Setup.md)
+* [Transform Commit Message](Transform-Commit-Message.md)
