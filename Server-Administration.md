@@ -1,0 +1,17 @@
+# Server Administration
+--------------------
+
+1. [Start and Stop OneDev](Start-And-Stop-Onedev)
+2. [Run as System Service](Run-As-System-Service)
+3. [Reverse Proxy Setup](Reverse-Proxy-Setup)
+4. [User Management](User-Management)
+5. [Group Management](Group-Management)
+6. [Server Administration Menu](Server-Administration-Menu)
+6. [LDAP and Active Directory Integration](Ldap-Integration)
+7. [Mail Set Up](Mail-Setup)
+4. [Use External Database](Use-External-Database)
+5. [Security Management](Security-Management)
+6. [Backup and Restore](Backup-Restore)
+7. [Reset Administrator Password](Reset-Admin-Password)
+7. [OneDev Upgrade](Onedev-Upgrade)
+5. [License Management](License-Management)
