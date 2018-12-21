@@ -1,6 +1,3 @@
-# Project Authorization
--------------------------
-
 Project can be authorized in three ways:
 
 1. Authorize from project side:

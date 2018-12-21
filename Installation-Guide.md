@@ -1,6 +1,3 @@
-# Installation Guide
------------------------
-
 ### Supported operating systems
 
 OneDev requires Java 8 or higher, and git 1.9.0 or higher. It should be able to run on any operating systems supporting these two tools. We officially tested OneDev on below systems:

@@ -1,6 +1,3 @@
-# Backup and Restore
---------------
-
 OneDev stores its data in two places:
 * database
    

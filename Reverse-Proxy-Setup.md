@@ -1,6 +1,3 @@
-# Reverse Proxy Set Up
--------------------------------
-
 ### Apache Httpd
 
 You may configure OneDev to run behind Apache to do reverse proxying. Below procedure assumes you are running Apache on Ubuntu:

@@ -1,6 +1,3 @@
-# Use External Database
-----------------------------
-
 By default, OneDev uses the embedded HSQL database for demonstration purpose. For production usage, it is highly recommended to switch to external database for reliability and performance reason. OneDev can work with below databases:
 * MySQL 5.0 or higher
 * Oracle 9i or higher

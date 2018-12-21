@@ -1,6 +1,3 @@
-# Upgrade to New Version
------------------------
-
 Upgrade to any new OneDev versions can be done via below steps:
 
 1. Assume OneDev is currently installed at _/path/to/gitplex_, stop OneDev by running command _/path/to/onedev/bin/server.(sh|bat) stop_

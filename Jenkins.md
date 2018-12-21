@@ -1,6 +1,3 @@
-# Jenkins Set Up (tested on version 2.73)
------------------
-
 Assume we have a project named _test_ at OneDev side. The clone url is http://lark:6610/projects/test.
 
   ![lark-project.png](images/lark-project.png) 

@@ -1,6 +1,3 @@
-# Branch and Tag Protection
--------------------------------
-
 ### Branch protection
 
 Branches can be protected via branch protection rules:

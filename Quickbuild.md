@@ -1,6 +1,3 @@
-# QuickBuild Set Up (tested on 7.0)
------------------
-
 Assume we have a project named _test_ at OneDev side. The clone url is http://matrix:6610/projects/test.
 
   ![project.png](images/project.png)

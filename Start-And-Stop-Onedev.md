@@ -1,6 +1,3 @@
-# Start and Stop OneDev
----------------------------
-
 ### Run from console
 OneDev can be started from console by running _/path/to/onedev/bin/server.(sh|bat) console_, and can be stopped by pressing _Ctrl-C_ (or _Command-C_ on Mac OS X).
   

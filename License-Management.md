@@ -1,6 +1,3 @@
-# License Management
---------------------
-
 OneDev ships with a free 10-user license. To add more users, a commercial license needs to be installed as below:
 
 ![license-management.png](images/license-management.png)

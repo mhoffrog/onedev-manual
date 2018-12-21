@@ -1,6 +1,3 @@
-# Server Administration
---------------------
-
 1. [Start and Stop OneDev](Start-And-Stop-Onedev)
 2. [Run as System Service](Run-As-System-Service)
 3. [Reverse Proxy Setup](Reverse-Proxy-Setup)
