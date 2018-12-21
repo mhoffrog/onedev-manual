@@ -4,7 +4,6 @@
 3. [Increase Ulimit](Increase-Ulimit)
 4. [User Management](User-Management)
 5. [Group Management](Group-Management)
-6. [Server Administration Menu](Server-Administration-Menu)
 6. [LDAP and Active Directory Integration](Ldap-Integration)
 7. [Mail Set Up](Mail-Setup)
 4. [Use External Database](Use-External-Database)
