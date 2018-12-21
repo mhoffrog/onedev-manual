@@ -1,3 +1,6 @@
+# Diff Selection
+----------------------
+
 OneDev allows to select a range of text while comparing revisions to create permanent links or add comments. However some selections are considered invalid:
 
 1. If the selection contains unexpanded lines like below:
