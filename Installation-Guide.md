@@ -22,7 +22,7 @@ Your system running OneDev should have at least 2G physical memory. If you have 
 1. Make sure your system has Java 8 or higher installed. If not, download and install from [here](https://www.java.com/en/download/)
 1. Make sure your system has git 1.9.0 or higher installed. For Windows, make sure to use [git for windows](https://git-for-windows.github.io/)
 1. On Linux and Mac, make sure your system has [curl](https://curl.haxx.se) installed, you may run command _curl_ to verify
-1. Download OneDev distribution [here](https://www.onedev.io/download)
+1. Download OneDev distribution [here](https://github.com/theonedev/onedev/releases)
 1. Extract the downloaded file into the selected installation directory. Make sure the user running OneDev has *full access rights* to the installation directory
 1. Open _/path/to/onedev/conf/wrapper.conf_ to change below settings if necessary:
   * Modify property _wrapper.java.command_ to path of Java 8 command if it does not exist in system path
