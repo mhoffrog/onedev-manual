@@ -1,6 +1,3 @@
-# OneDev Documentation
-------------------------------
-
 * [Installation Guide](installation-guide.md)
 * [Server Administration](server-administration.md)
 * [Project Administration](project-administration.md)
