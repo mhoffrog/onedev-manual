@@ -8,6 +8,10 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://la
    
     ![jenkins-onedev-account.png](images/jenkins-onedev-account.png)
   
+1. At OneDev side, add a build configuration with same name as value of property _context name_ of post action _Set GitHub Commit Status_ defined at Jenkins side. 
+	
+    ![jenkins-build-configuration.png](images/jenkins-build-configuration.png)
+	
 1. At OneDev side, generate access token for user _build_ as below. This token will be used at Jenkins side in the next step.
 
     ![generate-user-token.png](images/generate-user-token.png)
@@ -100,8 +104,8 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://la
         
 1. Now let's create a pull request to test the setup.
 
-    ![pullrequest-waiting-jenkins-build.png](images/pullrequest-waiting-jenkins-build.png)
+    ![pullrequest-waiting-build.png](images/pullrequest-waiting-build.png)
 
     We will see that the pull request is waiting for Jenkins to build it. After Jenkins builds successfully, the pull request will be merged automatically. 
     
-    ![pullrequest-merged-after-jenkins-build.png](images/pullrequest-merged-after-jenkins-build.png)
+    ![pullrequest-merged-after-build.png](images/pullrequest-merged-after-build.png)

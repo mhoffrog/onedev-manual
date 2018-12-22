@@ -7,7 +7,11 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://ma
 1. At OneDev side, add an user to be used by TeamCity to access the _test_ project. This user should have write permission over the project.
    
     ![teamcity-onedev-account.png](images/teamcity-onedev-account.png)
-  
+
+1. At OneDev side, add a build configuration corresponding to TeamCity project and configuration like below:
+	
+    ![teamcity-build-configuration.png](images/teamcity-build-configuration.png)
+	
 1.  At TeamCity side, create a _test_ project manually like below:
      
      ![teamcity-create-project.png](images/teamcity-create-project.png)
