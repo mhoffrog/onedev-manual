@@ -4,13 +4,9 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://ma
 
 ### Set up TeamCity to report build status
 
-1. At OneDev side, add an user to be used by TeamCity to access the _test_ project. This user should have write permission over the project.
+1. At OneDev side, add an user to be used by TeamCity to access the _test_ project. This user should have _Code Write_ permission over the project.
    
-    ![teamcity-onedev-account.png](images/teamcity-onedev-account.png)
-
-1. At OneDev side, add a build configuration corresponding to TeamCity project and configuration like below:
-	
-    ![teamcity-build-configuration.png](images/teamcity-build-configuration.png)
+    ![onedev-build-account.png](images/onedev-build-account.png)
 	
 1.  At TeamCity side, create a _test_ project manually like below:
      
@@ -34,6 +30,10 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://ma
     
     OneDev mimics some GitHub RESTful api, so we can use GitHub publisher here.
     
+1. At OneDev side, add a build configuration corresponding to TeamCity project and configuration like below:
+	
+    ![teamcity-build-configuration.png](images/teamcity-build-configuration.png)
+	
 1. At TeamCity side, run the _ci_ configuration. After build finishes, check commits page at OneDev side and we will see that corresponding commits are marked with build status.
 
     ![teamcity-commit-status.png](images/teamcity-commit-status.png)
@@ -42,13 +42,17 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://ma
 
 1. Make sure TeamCity has been [set up to report build status](#set-up-teamcity-to-report-build-status) to OneDev.
 
-1. At TeamCity side, edit the VCS root to specify branch specification as below:
+1. At TeamCity side, edit the VCS root to specify branch specification as _+:refs/pull/(*/merge)_
    
     ![teamcity-pullrequest.png](images/teamcity-pullrequest.png)    
     
 1. At TeamCity side, add a VCS trigger to the _ci_ configuration so that it can build automatically upon pull request open or change:
 
     ![teamcity-add-trigger.png](images/teamcity-add-trigger.png)
+   
+1. At OneDev side, add another build configuration corresponding to TeamCity project and configuration like below:
+	
+    ![teamcity-pullrequest-build-configuration.png](images/teamcity-pullrequest-build-configuration.png)
    
 1. At OneDev side, add a branch protection rule to require TeamCity verification.
 
