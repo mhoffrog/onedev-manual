@@ -1,16 +1,17 @@
-Assume we have a project named _test_ at OneDev side. The clone url is http://lark:6610/projects/test.
+Assume we have a project named _test_ at OneDev side. The clone url is http://matrix:6610/projects/test.
 
-  ![lark-project.png](images/lark-project.png) 
+  ![project.png](images/project.png)
+
 
 ### Set up Jenkins to report build status
 
-1. At OneDev side, add an user to be used by Jenkins to access the _test_ project. This user should have write permission over the project.
+1. At OneDev side, add an user to be used by Jenkins to access the _test_ project. This user should have _Code Write_ permission over the project.
    
-    ![jenkins-onedev-account.png](images/jenkins-onedev-account.png)
+    ![onedev-build-account.png](images/onedev-build-account.png)
   
-1. At OneDev side, add a build configuration with same name as value of property _context name_ of post action _Set GitHub Commit Status_ defined at Jenkins side. 
+1. At OneDev side, add a build configuration to hold build information reported by Jenkins.
 	
-    ![jenkins-build-configuration.png](images/jenkins-build-configuration.png)
+    ![onedev-build-configuration.png](images/onedev-build-configuration.png)
 	
 1. At OneDev side, generate access token for user _build_ as below. This token will be used at Jenkins side in the next step.
 
@@ -96,7 +97,7 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://la
 
 1. At Jenkins side, delete the post build action _Set GitHub commit status (universal)_, as the build trigger we set up in previous step can post commit status to OneDev
    
-1. At OneDev side, add a branch protection rule to require Jenkins verification.
+1. At OneDev side, add a branch protection rule to require Jenkins build.
 
     ![jenkins-branch-protection.png](images/jenkins-branch-protection.png)
     

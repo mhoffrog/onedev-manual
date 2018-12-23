@@ -6,11 +6,11 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://ma
 
 1. At OneDev side, add an user to be used by QuickBuild to access the _test_ project. This user should have code_write permission over the project.
    
-    ![qb-onedev-account.png](images/qb-onedev-account.png)
+    ![onedev-build-account.png](images/onedev-build-account.png)
 	
-1. At OneDev side, add a build configuration with same name as value of property _status context label_ defined at QuickBuild side (see next step). 
+1. At OneDev side, add a build configuration to hold builds reported by QuickBuild.
 	
-    ![qb-build-configuration.png](images/qb-build-configuration.png)
+    ![onedev-build-configuration.png](images/onedev-build-configuration.png)
   
 1.  At QuickBuild side, create a configuration say _root/test_, and add a **GitHub** repository (OneDev mimics GitHub Restful API to work with other systems) like below:
      
@@ -46,4 +46,4 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://ma
 
     We will see that the pull request is waiting for QuickBuild to build it. After QuickBuild builds successfully, the pull request will be merged automatically. 
     
-    ![pullrequest-merged-after-qb-build.png](images/pullrequest-merged-after-qb-build.png)
+    ![pullrequest-merged-after-build.png](images/pullrequest-merged-after-build.png)
