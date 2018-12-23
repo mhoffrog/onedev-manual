@@ -50,7 +50,7 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://ma
 
     ![teamcity-add-trigger.png](images/teamcity-add-trigger.png)
    
-1. At OneDev side, add a *merging* build configuration corresponding to TeamCity project and configuration like below:
+1. At OneDev side, add a pull request build configuration corresponding to TeamCity project and configuration like below:
 	
     ![teamcity-pullrequest-build-configuration.png](images/teamcity-pullrequest-build-configuration.png)
    
