@@ -50,11 +50,11 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://ma
 
     ![teamcity-add-trigger.png](images/teamcity-add-trigger.png)
    
-1. At OneDev side, add another build configuration corresponding to TeamCity project and configuration like below:
+1. At OneDev side, add a *merging* build configuration corresponding to TeamCity project and configuration like below:
 	
     ![teamcity-pullrequest-build-configuration.png](images/teamcity-pullrequest-build-configuration.png)
    
-1. At OneDev side, add a branch protection rule to require TeamCity verification.
+1. At OneDev side, add a branch protection rule to require TeamCity build.
 
     ![teamcity-branch-protection.png](images/teamcity-branch-protection.png)
     
