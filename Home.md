@@ -1,4 +1,5 @@
 * [Installation Guide](Installation-Guide)
+* [Upgrade Guide](Upgrade-Guide)
 * [Server Administration](Server-Administration)
 * [Project Administration](Project-Administration)
 * [Working with Code Search - Video](video/code-search.mp4)
