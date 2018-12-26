@@ -7,7 +7,10 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://ma
 1. At OneDev side, add an user to be used by TeamCity to access the _test_ project. This user should have _Code Write_ permission over the project.
    
     ![onedev-build-account.png](images/onedev-build-account.png)
-	
+
+1.  At TeamCity side, install [OneDev integration plugin](https://github.com/theonedev/teamcity-plugin/releases/download/v1.0.0/onedev-integration.zip). Refer to 
+    [TeamCity plugin installation guide](https://confluence.jetbrains.com/display/TCD18/Installing+Additional+Plugins) on how to install custom plugin
+     	 	
 1.  At TeamCity side, create a _test_ project manually like below:
      
      ![teamcity-create-project.png](images/teamcity-create-project.png)
@@ -24,13 +27,11 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://ma
     
 1. At TeamCity side, add appropriate build steps to the _ci_ configuration as necessary
 
-1. At TeamCity side, add build feature of type _commit status publisher_ like below:
+1. At TeamCity side, add build feature of type _OneDev commit status publisher_ like below:
 
     ![teamcity-add-build-feature.png](images/teamcity-add-build-feature.png)
     
-    OneDev mimics some GitHub RESTful api, so we can use GitHub publisher here.
-    
-1. At OneDev side, add a build configuration corresponding to TeamCity project and configuration like below:
+1. At OneDev side, add a build configuration with the same name as TeamCity configuration like below:
 	
     ![teamcity-build-configuration.png](images/teamcity-build-configuration.png)
 	
@@ -50,19 +51,15 @@ Assume we have a project named _test_ at OneDev side. The clone url is http://ma
 
     ![teamcity-add-trigger.png](images/teamcity-add-trigger.png)
    
-1. At OneDev side, add a pull request build configuration corresponding to TeamCity project and configuration like below:
-	
-    ![teamcity-pullrequest-build-configuration.png](images/teamcity-pullrequest-build-configuration.png)
-   
 1. At OneDev side, add a branch protection rule to require TeamCity build.
 
-    ![teamcity-branch-protection.png](images/teamcity-branch-protection.png)
+    ![branch-protection-build.png](images/branch-protection-build.png)
     
     For brevity, we do not specify any mandatory reviewers here. The pull request will be merged automatically (unless the merge strategy is specified as "Do Not Merge") after build succeeds. 
         
 1. Now let's create a pull request to test the setup.
 
-    ![pullrequest-waiting-teamcity-build.png](images/pullrequest-waiting-teamcity-build.png)
+    ![pullrequest-waiting-build.png](images/pullrequest-waiting-build.png)
 
     We will see that the pull request is waiting for TeamCity to build it. After TeamCity builds successfully, the pull request will be merged automatically. 
     
