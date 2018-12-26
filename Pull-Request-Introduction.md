@@ -1,1 +1,1 @@
-OneDev pull request works a bit different from other products: you do not have a merge button to merge the pull request manually. 
+OneDev pull request plays a key role to do code review and work submission. It works a bit different from other products: you do not have a merge button to merge the pull request explicitly. 
