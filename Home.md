@@ -2,7 +2,7 @@
 * [Upgrade Guide](Upgrade-Guide)
 * [Server Administration](Server-Administration)
 * [Project Administration](Project-Administration)
-* [OneDev Pull Request](OneDev-Pull-Request)
+* [Pull Request Introduction](Pull-Request-Introduction)
 * [Working with Code Search - Video](video/code-search.mp4)
 * [Working with Commit Query - Video](video/commit-query.mp4)
 * [Working with Quick Review - Video](video/code-discussion.mp4)
