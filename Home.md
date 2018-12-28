@@ -3,6 +3,7 @@
 * [Server Administration](Server-Administration)
 * [Project Administration](Project-Administration)
 * [Pull Request Introduction](Pull-Request-Introduction)
+* [Fix Issue via Commit Message](Fix-Issue-via-Commit-Message)
 * [Working with Code Search - Video](video/code-search.mp4)
 * [Working with Commit Query - Video](video/commit-query.mp4)
 * [Working with Quick Review - Video](video/code-discussion.mp4)
