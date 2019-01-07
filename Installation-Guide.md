@@ -25,11 +25,11 @@ Your system running OneDev should have at least 2G physical memory. If you have 
 1. Download OneDev distribution [here](https://github.com/theonedev/onedev/releases)
 1. Extract the downloaded file into the selected installation directory. Make sure the user running OneDev has *full access rights* to the installation directory
 1. Open _/path/to/onedev/conf/wrapper.conf_ to change below settings if necessary:
-  * Modify property _wrapper.java.command_ to path of Java 8 command if it does not exist in system path
-  * By default OneDev uses half of your system memory. If this is not what you want, uncomment property _wrapper.java.maxmemory_ to specify an appropriate value
-  * Open a command window, switch to folder _/path/to/onedev/bin_, and run command _server.(bat|sh) console_ to start the server
-  * Monitor the console window for any error or warning messages
-  * After the server starts up, follow the instruction in the console to open a browser window and connect to the server to continue with server set up.
+    * Modify property _wrapper.java.command_ to path of Java 8 command if it does not exist in system path
+   By default OneDev uses half of your system memory. If this is not what you want, uncomment property _wrapper.java.maxmemory_ to specify an appropriate value
+    * Open a command window, switch to folder _/path/to/onedev/bin_, and run command _server.(bat|sh) console_ to start the server
+    * Monitor the console window for any error or warning messages
+    * After the server starts up, follow the instruction in the console to open a browser window and connect to the server to continue with server set up.
 
 ### Further Reading
 
