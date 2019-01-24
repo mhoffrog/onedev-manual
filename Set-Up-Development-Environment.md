@@ -1,9 +1,6 @@
-# Set Up Development Environment
----------------
-
 1. Make sure you have [JDK 1.8 or higher](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed
 1. Make sure you have [Git for Windows](https://git-scm.com/download/win) installed
-1. Install [Eclipse Oxygen](http://www.eclipse.org/) for Java development
+1. Install [Eclipse Oxygen or higher](http://www.eclipse.org/) for Java development
 1. Install JavaScript development tools and web development tools from Eclipse menu _Help/Install New Software_ like below:
 
     ![install_js_web_dev.png](images/install_js_web_dev.png)
