@@ -9,7 +9,7 @@
 1. Clone OneDev source code into a sub directory under Eclipse workspace:
 
     ```
-    git clone https://go.onedev.io/projects/onedev-server d:\myworkspace\onedev-server
+    git clone https://github.com/theonedev/onedev.git d:\myworkspace\onedev-server
     ```
 1. Run Eclipse and open workspace _d:\myworkspace_
 2. Specify JDK instead of JRE as default. Otherwise, Eclipse will not be able to access Java sources to get help
