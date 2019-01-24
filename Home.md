@@ -8,5 +8,5 @@
 * [Working with Commit Query - Video](video/commit-query.mp4)
 * [Working with Quick Review - Video](video/code-discussion.mp4)
 * [Working with Iterative Review - Video](video/pull-request.mp4)
-* [Set up Development Environment](Set-Up-Development-Environment)
+* [Development Guide](Development-Guide)
 * [Appendix](Appendix)
