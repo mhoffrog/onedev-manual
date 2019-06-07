@@ -1,13 +1,9 @@
----
-typora-root-url: images
----
-
 Built-in plugins ships together with OneDev, and requires OneDev source code to develop. Follow below steps to add a new built-in plugin project:
 
 1. First follow [this guide](Set-Up-Development-Environment) to set up OneDev development environment
 
 2. Add a new plugin project by adding a new Maven module:  
-   ![add-new-module](/add-new-module.png)
+   ![add-new-module](images/add-new-module.png)
    
    
    
