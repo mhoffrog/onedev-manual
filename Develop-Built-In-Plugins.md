@@ -12,6 +12,8 @@ Built-in plugins ships together with OneDev, and requires OneDev source code to 
 4. Click the next button to go to next page. If this is the first time you adding a OneDev plugin, you will need to click the _configure_ button to add OneDev remote archetype catalog. The catalog url is: 
    https://artifact.pmease.com/artifactory/pmeaseRepo/archetype-catalog.xml. Apply and close the catalog adding dialog, Eclipse should list all archetypes relating to OneDev. If you added the catalog before, just input _io.onedev_ to filter the archetype
 
+   ![add-archetype-catalog](images/add-archetype-catalog.png)
+
 5. From OneDev archetype list page, choose the archetype **matching** your current OneDev version (Check OneDev server pom file to find current version)
 
    ![select-onedev-archetype](images/select-onedev-archetype.png)   
