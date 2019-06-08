@@ -3,6 +3,7 @@ Built-in plugins ships together with OneDev, and requires OneDev source code to 
 1. First follow [this guide](Set-Up-Development-Environment) to set up OneDev development environment
 
 2. Add a new plugin project by adding a new Maven module:  
+  
    ![add-new-module](images/add-new-module.png)      
    
 3. In next page, specify module name. The module name should follow the convention of _server-plugin-<plugin name>_. And the parent project should be specified as _server-plugin_. Also make sure **NOT** to check the _create a simple project_ option
@@ -19,6 +20,10 @@ Built-in plugins ships together with OneDev, and requires OneDev source code to 
    ![select-onedev-archetype](images/select-onedev-archetype.png)   
 
 6. In the next page, specify group id and version. For built-in plugin project, group id must always be _io.onedev_, and version will actually be ignored (always use current OneDev version) 
+
    ![specify-group-id-and-artifact-id](images/specify-group-id-and-artifact-id.png)    
 
-7. Finish adding the plugin. Eclipse will take a while to build the newly added plugin
+7. Finish adding the plugin. Eclipse will take a while to build the newly added plugin. Then edit file _pom.xml_ of project _server-product_ to make it depends on the newly added plugin
+
+   ![add-dependency-to-product](images/add-dependency-to-product.png)
+
