@@ -4,10 +4,6 @@ OneDev has built-in CI support to build projects. The build instructions are def
 
 # Pre-requisite
 
-### Familiar with Java
-
-OneDev is written in Java, and familiar with Java is a must. 
-
 ### Application frameworks knowledge
 
 To write such plugin, you will need to be familiar with some application frameworks, especially its underlying build/test mechanism. For instance, Spring project in Java world normally contains a file _pom.xml_ under the project root, and it means that the project can be built/test with Apache Maven by calling _mvn clean test_. So the [maven plugin](https://github.com/theonedev/onedev/tree/master/server-plugin/server-plugin-maven) checks existence of _pom.xml_ and parses this file to help generating the default CI spec if it exists.
