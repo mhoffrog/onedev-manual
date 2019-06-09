@@ -18,6 +18,10 @@ Different projects may require different environments to build and test. OneDev 
 
    ![share-drive-with-docker](images/default-ci-spec-provider/share-drive-with-docker.png)
    
+   <aside class="notice">
+   Sometimes Docker can not pull images on Windows. In this case, you may restart Docker service and retry.
+   </aside>
+
 1. Follow [this guide](Develop-Built-In-Plugins) to prepare the plugin development environment. The follow below steps to get familiar with OneDev CI support:
 
   - Run OneDev from IDE
@@ -39,5 +43,6 @@ Different projects may require different environments to build and test. OneDev 
   - [Angular](https://angular.io/)
   - [React](https://reactjs.org/)
   - [Vue](https://vuejs.org/)
-  - Android App?
   - [Asp.net](https://dotnet.microsoft.com/apps/aspnet)
+  - [Gradle projects](https://gradle.org/)
+  - Android App?
