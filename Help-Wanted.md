@@ -1,1 +1,1 @@
-1. [Default CI spec for typical projects](Default-CI-Spec-Provider-For-Typical-Projects)
+1. [Default CI spec for typical projects](Default-CI-Spec-For-Typical-Projects)
