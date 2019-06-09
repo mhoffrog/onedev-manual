@@ -9,4 +9,5 @@
 * [Working with Quick Review - Video](video/code-discussion.mp4)
 * [Working with Iterative Review - Video](video/pull-request.mp4)
 * [Development Guide](Development-Guide)
+* [Help Wanted](Help-Wanted)
 * [Appendix](Appendix)
