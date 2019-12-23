@@ -1,3 +1,3 @@
-* [Set up Development Environment](Set-Up-Development-Environment.md)
-* [Develop Built-in Plugins](Develop-Built-In-Plugins.md)
-* [Develop Standalone Plugins](Develop-Standalone-Plugins.md)
+* [Set up Development Environment](set-up-development-environment.md)
+* [Develop Built-in Plugins](develop-built-In-plugins.md)
+* [Develop Standalone Plugins](develop-standalone-plugins.md)
