@@ -1,10 +1,9 @@
-1. [Start and Stop OneDev](Start-And-Stop-Onedev)
-2. [Run as System Service](Run-As-System-Service)
-3. [Reverse Proxy Setup](Reverse-Proxy-Setup)
-3. [Increase Ulimit](Increase-Ulimit)
-6. [LDAP and Active Directory Integration](Ldap-Integration)
-4. [Use External Database](Use-External-Database)
-5. [Security Management](Security-Management)
-6. [Backup and Restore](Backup-Restore)
-7. [Reset Administrator Password](Reset-Admin-Password)
-7. [OneDev Upgrade](Onedev-Upgrade)
+# Server Administration
+--------
+
+* [LDAP and Active Directory Integration](ldap-integration.md)
+* [Use External Database](use-external-database.md)
+* [Security Management](security-management.md)
+* [Backup and Restore](backup-restore.md)
+* [Reset Administrator Password](reset-admin-password.md)
+* [Upgrade Guide](upgrade-guide.md)
