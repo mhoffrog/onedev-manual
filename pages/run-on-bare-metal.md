@@ -1,4 +1,4 @@
-# Run on Bare Metal 
+# Run on Bare Metal Machine
 
 To achieve maximum flexibility, you may run OneDev on bare metal machine
 
