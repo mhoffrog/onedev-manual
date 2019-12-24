@@ -10,7 +10,7 @@
   ```
 3. OneDev resources will be created under namespace _onedev_. Wait a while for pods in this namespace to be up and running. Then access ip address assigned by onedev load balancer to access OneDev. For instance on Google Kubernetes Engine, one can access OneDev server this way:
 
- ![K8s Access Onedev](k8s-access-onedev.png)
+ ![K8s Access Onedev](../images/k8s-access-onedev.png)
  
 Please note:
 
