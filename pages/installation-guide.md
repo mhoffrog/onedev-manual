@@ -20,13 +20,9 @@ OneDev requires Java 8 or higher, and git 2.11.1 or higher. It should be able to
 
 Your system running OneDev should have at least 2G physical memory. If you have many large git repositories, you will need more memory. 
 
-### Run as Docker Container
-
-This is the simplest approach to get OneDev up and running. To do it, run below command in Linux environment:
-```
-docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):/usr/bin/docker -v /opt/onedev:/opt/onedev -p 6610:6610 1dev/server
-```
-[More on running as docker container](running-as-docker-container.md)
+### [Run as Docker Container](run-as-docker-container.md)
+### [Deploy into Kubernetes Cluster](deploy-into-k8s.md)
+### [Install on Bare Metal Machine](install-on-bare-metal.md)
 
 ### Deploy into Kubernetes Cluster
 
