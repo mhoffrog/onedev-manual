@@ -11,7 +11,7 @@ The service will run under local system account if these properties are not spec
 1. Run command _server.bat install_ from command prompt window, and a Windows service with the name _GitPlex_ will be installed.
 1. If you want to uninstall the service later, just run command _server.bat remove_ from the command prompt window (make sure the command prompt window is [opened with administrative right](http://www.howtogeek.com/howto/windows-vista/run-a-command-as-administrator-from-the-windows-vista-run-box/) on Windows system with UAC enabled).
 
-### On Unix family platforms (including MacOS X and Linux)
+### On Linux and Mac OSX
 1. Open a command shell and switch to folder _/path/to/onedev/bin_
 1. Edit file _server.sh_ to uncomment below line to specify the OS user to run the service as. Make sure the user has full permission against OneDev installation directory including all sub directories and files
   ```
