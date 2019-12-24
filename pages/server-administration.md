@@ -2,7 +2,6 @@
 --------
 
 * [Use External Database](use-external-database.md)
-* [Security Management](security-management.md)
 * [Backup and Restore](backup-restore.md)
 * [Reset Administrator Password](reset-admin-password.md)
 * [Reverse Proxy Setup](reverse-proxy-setup.md)
