@@ -19,4 +19,4 @@ Your system running OneDev should have at least 2G physical memory. If you have 
   
 * [Deploy into Kubernetes Cluster](deploy-into-k8s.md)
 
-*  [Install on Bare Metal Machine](install-on-bare-metal.md)
+*  [Install on Bare Metal Machine](run-on-bare-metal-machine.md)
