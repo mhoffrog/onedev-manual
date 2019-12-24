@@ -1,7 +1,6 @@
 * [Installation Guide](pages/installation-guide.md)
 * [Upgrade Guide](pages/upgrade-guide.md)
 * [Server Administration](pages/server-administration.md)
-* [Project Administration](pages/project-administration.md)
 * [Pull Request Introduction](pages/pull-request-introduction.md)
 * [Fix Issue via Commit Message](pages/fix-issue-via-commit-message.md)
 * [Development Guide](pages/development-guide.md)
