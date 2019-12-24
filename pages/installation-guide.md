@@ -34,7 +34,9 @@ OneDev can be deployed into Kubernetes cluster easily. To do it:
   ```
   kubectl apply -k .
   ```
-3. OneDev resources will be created under namespace _onedev_. Wait a while for pods in this namespace to be up and running. Then access ip address assigned by the load balancer for by The deployment will create a load balancer which should assign an external ip address to access OneDev. For instance on Google Kubernetes Engine, one can access OneDev server this way:
+3. OneDev resources will be created under namespace _onedev_. Wait a while for pods in this namespace to be up and running. Then access ip address assigned by onedev load balancer to access OneDev. For instance on Google Kubernetes Engine, one can access OneDev server this way:
+
+ ![K8s Access Onedev](k8s-access-onedev.png)
 
 ### Install on a Bare Metal Machine
 
