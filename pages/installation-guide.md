@@ -53,5 +53,7 @@ To achieve the maximum flexibility, you may install OneDev on bare metal machine
 1. Open _/path/to/onedev/conf/wrapper.conf_ to change below settings if necessary:
     * Modify property _wrapper.java.command_ to path of Java command if it does not exist in system path.
     * Open a command window, switch to folder _/path/to/onedev/bin_, and run command _server.bat console_ (on Windows) or _server.sh console_ (on Unix/Linux/Mac) to start the server
-
-[More on bare metal installation](bare-metal-installation.md)
+1. Post-install tasks:
+ * [Run as System Service](run-as-system-service.md)
+ * [Use External Database](use-external-database.md)
+ * [Increase Ulimit](increase-ulimit.md)
