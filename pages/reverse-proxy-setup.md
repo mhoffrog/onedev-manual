@@ -1,3 +1,6 @@
+# Reverse Proxy Setup
+----------
+
 ### Apache Httpd
 
 You may configure OneDev to run behind Apache to do reverse proxying. Below procedure assumes you are running Apache on Ubuntu:
@@ -11,10 +14,10 @@ You may configure OneDev to run behind Apache to do reverse proxying. Below proc
   ```
   sudo a2enmod proxy_wstunnel
   ```
-1. Now assume your OneDev instance runs at port 6610, and you want to access it via http://git.example.com. Create a file named _git.example.com.conf with below content under _/etc/apache2/sites-available_:
+1. Now assume your OneDev instance runs at port 6610, and you want to access it via _http://onedev.example.com_. Create a file named _onedev.example.com.conf_ with below content under _/etc/apache2/sites-available_:
   ```
 <VirtualHost *:80>
-        ServerName git.example.com
+        ServerName onedev.example.com
 
         ProxyRequests Off
 
@@ -41,7 +44,7 @@ You may configure OneDev to run behind Apache to do reverse proxying. Below proc
   ```
 1. Then, enable this site and restart Apache httpd server:
   ```
-sudo a2ensite git.example.com.conf
+sudo a2ensite onedev.example.com.conf
 sudo service apache2 restart
 ```
 
@@ -49,13 +52,13 @@ sudo service apache2 restart
 
 You may configure OneDev to run behind Nginx to do reverse proxying. Below procedure assumes you are running Nginux on Ubuntu:
 
-1. Assume your OneDev instance runs at port 6610, and you want to access it via http://git.example.com. Create a file named _git.example.com_ with below content under directory _/etc/nginx/sites-available_:
+1. Assume your OneDev instance runs at port 6610, and you want to access it via _http://onedev.example.com_. Create a file named _onedev.example.com_ with below content under directory _/etc/nginx/sites-available_:
   ```
 server {
         listen 80;
         listen [::]:80;
 
-        server_name git.example.com;
+        server_name onedev.example.com;
 
         location /wicket/websocket {
                 proxy_pass http://localhost:6610/wicket/websocket;
@@ -72,6 +75,6 @@ server {
 
 1. Then, enable this site and restart Nginx server:
   ```
-sudo ln -s /etc/nginx/sites-available/git.example.com /etc/nginx/sites-enabled/git.pmease.com
+sudo ln -s /etc/nginx/sites-available/git.example.com /etc/nginx/sites-enabled/onedev.example.com
 sudo service nginx restart
 ```
