@@ -1,6 +1,6 @@
 ### Supported operating systems
 
-OneDev requires Java 8 or higher, and git 1.9.0 or higher. It should be able to run on any operating systems supporting these two tools. We officially tested OneDev on below systems:
+OneDev requires Java 8 or higher, and git 2.11.1 or higher. It should be able to run on any operating systems supporting these two tools. We officially tested OneDev on below systems:
 
 * Windows, 64bit
 * Linux, 64bit
@@ -17,10 +17,29 @@ OneDev requires Java 8 or higher, and git 1.9.0 or higher. It should be able to 
 
 Your system running OneDev should have at least 2G physical memory. If you have many large git repositories, you will need more memory. 
 
-### Installation Steps
+### Run as Docker Container
+
+This is the simplest approach to get OneDev up and running. To do it, run below command in Linux environment:
+```
+docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):/usr/bin/docker -v /opt/onedev:/opt/onedev -p 6610:6610 1dev/server
+```
+Data will be written to directory _/opt/onedev_, and will be migrated automatically when a new release is available. OneDev will leverage docker facility of the host to run builds if necessary.
+
+### Deploy into Kubernetes Cluster
+
+OneDev can be deployed into Kubernetes cluster easily. To do it:
+
+1. Select desired [OneDev release](https://code.onedev.io/projects/onedev-server/builds?query=%22Job%22+is+%22Release%22)  and download _k8s-resources.zip_
+2. Unzip the file, change into directory _production_, modify node selectors, memory setting and disk setting if necessary, and then run below command from this directory:
+  ```
+  kubectl apply -k .
+  ```
+3. OneDev resources will be created under namespace _onedev_. Wait a while for pods in this namespace to be up and running. Then access ip address assigned by the load balancer for by The deployment will create a load balancer which should assign an external ip address to access OneDev. For instance on Google Kubernetes Engine, one can access OneDev server this way:
+
+### Install on a Bare Metal Machine
 
 1. Make sure your system has Java 8 or higher installed. If not, download and install from [here](https://www.java.com/en/download/)
-1. Make sure your system has git 1.9.0 or higher installed. For Windows, make sure to use [git for windows](https://git-for-windows.github.io/)
+1. Make sure your system has git 2.11.1 or higher installed. For Windows, make sure to use [git for windows](https://git-for-windows.github.io/)
 1. On Linux and Mac, make sure your system has [curl](https://curl.haxx.se) installed, you may run command _curl_ to verify
 1. Download OneDev distribution [here](https://github.com/theonedev/onedev/releases)
 1. Extract the downloaded file into the selected installation directory. Make sure the user running OneDev has *full access rights* to the installation directory
