@@ -1,5 +1,5 @@
-* [Installation Guide](pages/installation-guide.md)
 * [Concepts](pages/concepts.md)
+* [Installation Guide](pages/installation-guide.md)
 * [Administration Guide](pages/administration-guide.md)
 * [Upgrade Guide](pages/upgrade-guide.md)
 * [Development Guide](pages/development-guide.md)
