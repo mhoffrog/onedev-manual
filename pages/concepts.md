@@ -27,7 +27,7 @@ Job describes a unit of build execution, and is defined in build spec. Jobs can 
 
 ### Job Workspace
 
-Workspace is the working directory where job executes its commands. Repository and dependency files (if there is any) will be retrieved into this directory. Artifact/report publishing will also be based on this directory
+Workspace is the working directory inside job container where job commands are executed. Repository and dependency files (if there is any) will be retrieved into this directory. Artifact/report will also be published based on this directory
 
 ### Build
 
