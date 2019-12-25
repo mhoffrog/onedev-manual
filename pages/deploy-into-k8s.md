@@ -17,6 +17,6 @@ Please note:
 1. Besides creating resources in namespace _onedev_, a cluster role _onedev_ and associated cluster role binding _onedev_ will be created in default namespace. This is necessary as OneDev needs to be granted some cluster-wide permissions to run builds as pods. For details, please check file _base/cluster-roles.yaml_
 2. OneDev will create two persistent volume claims, one to store MySQL database files, and another to store OneDev data including repositories. The actual place of these volumes varies depending on your Kubernetes cluster config. On Google Kubernetes Engine, they will be created as Google persistent disks
 
-### Post-Install Tasks
+### Post-install tasks
 
 1.
