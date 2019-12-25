@@ -1,10 +1,10 @@
-# Use Certificate from Well-Known Issuer
+# Install Certificate into OneDev
 ---------
 
 1. Run below command to generate pkcs keystore file from your certificate and private key:
 
   ```bash
-  openssl pkcs12 -export -out onedev.pfx -inkey /path/to/your-private-key -in /path/to/your-cert
+  openssl pkcs12 -export -out onedev.pfx -inkey /path/to/your-private-key.pem -in /path/to/your-cert.pem
   ```
 1. If you are [running OneDev as docker container](run-as-docker-container.md), restart the container with below command to enable https support:
     ```bash
