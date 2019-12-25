@@ -15,6 +15,6 @@ To achieve maximum flexibility, you may run OneDev on bare metal machine
 
 ### Post-install tasks (optional)
 
+ * [Increase Ulimit](increase-ulimit.md)
  * [Run as System Service](run-as-system-service.md)
  * [Use External Database](use-external-database.md)
- * [Increase Ulimit](increase-ulimit.md)
