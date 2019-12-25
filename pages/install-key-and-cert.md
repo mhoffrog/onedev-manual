@@ -1,4 +1,4 @@
-# Install Certificate into OneDev
+# Install Private Key and Certificate
 ---------
 
 1. Run below command to generate pkcs keystore file from your certificate and private key:
