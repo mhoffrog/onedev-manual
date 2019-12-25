@@ -34,6 +34,8 @@
     * Copy file _onedev.pfx_ into directory _/opt/onedev/conf_ (assume OneDev is installed in _/opt/onedev_, same below)
     * Edit file _/opt/onedev/conf/server.properties_ to specify keystore and password as below:
       ```properties
+      https_port=6643
+      ...
       keystore=onedev.pfx
       keystore_password=<password specified when generate the keystore>
       ```
