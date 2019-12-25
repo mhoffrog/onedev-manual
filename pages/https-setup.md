@@ -1,7 +1,7 @@
 # Https Setup
 ----------
 
-* If you obtain certificate from a well-known issuer, and have a [reverse proxy setup](reverse-proxy-setup.md), just install the certificate into Apache or Nginx following its user guide. Nothing needs to be done at OneDev side
+* If you obtain certificate from a well-known issuer, and have a [reverse proxy setup](reverse-proxy-setup.md), just install the certificate into the front-end web server following its user guide. Nothing needs to be done at OneDev side
    
 * If you obtain SSL certificate from well-known issuer, and do not have a [reverse proxy setup](reverse-proxy-setup.md), please follow [this guide](install-key-and-cert.md)
 
