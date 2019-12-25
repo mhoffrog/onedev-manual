@@ -5,10 +5,10 @@ Some tasks need to be performed in maintenance mode, such as restoring database,
 * If you are [running OneDev as docker container](run-as-docker-container.md):
 
   1. Stop the container
-  1. Run below command to enter into container (replace _${onedev-version}_ with the actual version such as _3.0.4_):
+  1. Run below command to enter into container:
 
     ```bash
-    docker run -it --rm -v /opt/onedev:/opt/onedev 1dev/server:${onedev-version} bash 
+    docker run -it --rm -v /opt/onedev:/opt/onedev 1dev/server bash 
     ```
   1. Change into directory _/opt/onedev_ in the container to perform various maintenance tasks
   
