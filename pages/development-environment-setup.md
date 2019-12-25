@@ -1,3 +1,6 @@
+# Development Environment Setup
+-----------
+
 1. Make sure you have [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed
 1. Make sure you have [Git](https://git-scm.com/) version 2.11.1 or higher installed
 1. Install [Eclipse Oxygen or higher](http://www.eclipse.org/) for Java development
