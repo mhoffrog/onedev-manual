@@ -13,7 +13,7 @@ To achieve maximum flexibility, you may run OneDev on bare metal machine
     * Modify property _wrapper.java.command_ to path of Java command if it does not exist in system path.
     * Open a command window, switch to folder _/path/to/onedev/bin_, and run command _server.bat console_ (on Windows) or _server.sh console_ (on Unix/Linux/Mac) to start the server
 
-### Post-install tasks
+### Post-install tasks (optional)
 
  * [Run as System Service](run-as-system-service.md)
  * [Use External Database](use-external-database.md)
