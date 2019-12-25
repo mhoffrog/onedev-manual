@@ -1,4 +1,4 @@
-# Use Certificate from Well-Known Issuer (without reverse proxy)
+# Use Certificate from Well-Known Issuer
 ---------
 
 1. Run below command to generate pkcs keystore file from your certificate and private key:
