@@ -1,4 +1,7 @@
-In case you forget administrator password and are locked out of the system, you can run below command to reset administrator password:
+# Reset Admin Password
+------
+
+In case you forget administrator password and are locked out of the system, you can run below command in [maintenance mode](maintenance-mode.md) to reset administrator password (assume OneDev is installed in _/opt/onedev_)
 ```
-/path/to/onedev/bin/reset_admin_password.(sh|bat) <new password> 
+/opt/onedev/bin/reset_admin_password.(sh|bat) <new password> 
 ```
