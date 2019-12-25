@@ -5,6 +5,6 @@
    
 * Follow [this guide](use-certificate-from-well-known-issuer-without-reverse-proxy.md) if you obtain SSL certificate from well-know issuer, and do not have a [reverse proxy setup](reverse-proxy-setup.md)
 
-* Follow [this guide](use-self-signed-certificate-with-reverse-proxy.md) if you have a [reverse proxy setup](reverse-proxy-setup.md) which uses a self-signed certificate
+* If you have a [reverse proxy setup](reverse-proxy-setup.md) which uses a self-signed certificate, configure OneDev to [trust the self-signed certificate](trust-certificates.md)
 
 * Follow [this guide](use-self-signed-certificate-without-reverse-proxy.md) if you want to use self-signed certificate, and do not have a [reverse proxy setup](reverse-proxy-setup.md)
