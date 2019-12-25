@@ -1,9 +1,38 @@
 # Reverse Proxy Setup
 ----------
 
-You may configure OneDev to run behind Apache or Nginx to do reverse proxying. Below procedure assumes you are running Apache or Nginx on Ubuntu:
+You may configure OneDev to run behind Nginx or Apache Httpd to do reverse proxying. Below procedure assumes you are running Nginx or Apache Httpd on Ubuntu:
 
-## Apache Httpd
+### Nginx
+
+1. Assume your OneDev instance runs at port 6610, and you want to access it via _http://onedev.example.com_. Create a file named _onedev.example.com_ with below content under directory _/etc/nginx/sites-available_:
+  ```
+server {
+        listen 80;
+        listen [::]:80;
+
+        server_name onedev.example.com;
+
+        location /wicket/websocket {
+                proxy_pass http://localhost:6610/wicket/websocket;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection "upgrade";
+        }
+
+        location / {
+                proxy_pass http://localhost:6610/;
+        }
+}
+```
+
+1. Then, enable this site and restart Nginx server:
+  ```
+sudo ln -s /etc/nginx/sites-available/git.example.com /etc/nginx/sites-enabled/onedev.example.com
+sudo service nginx restart
+```
+
+### Apache Httpd
 
 1. Make sure you have Apache httpd server version 2.4.5 or higher installed
 1. Enable [mod_proxy](http://httpd.apache.org/docs/2.4/mod/mod_proxy.html) by running:
@@ -46,33 +75,4 @@ You may configure OneDev to run behind Apache or Nginx to do reverse proxying. B
   ```
 sudo a2ensite onedev.example.com.conf
 sudo service apache2 restart
-```
-
-## Nginx
-
-1. Assume your OneDev instance runs at port 6610, and you want to access it via _http://onedev.example.com_. Create a file named _onedev.example.com_ with below content under directory _/etc/nginx/sites-available_:
-  ```
-server {
-        listen 80;
-        listen [::]:80;
-
-        server_name onedev.example.com;
-
-        location /wicket/websocket {
-                proxy_pass http://localhost:6610/wicket/websocket;
-                proxy_http_version 1.1;
-                proxy_set_header Upgrade $http_upgrade;
-                proxy_set_header Connection "upgrade";
-        }
-
-        location / {
-                proxy_pass http://localhost:6610/;
-        }
-}
-```
-
-1. Then, enable this site and restart Nginx server:
-  ```
-sudo ln -s /etc/nginx/sites-available/git.example.com /etc/nginx/sites-enabled/onedev.example.com
-sudo service nginx restart
 ```
