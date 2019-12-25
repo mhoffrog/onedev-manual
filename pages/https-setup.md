@@ -8,7 +8,7 @@
 * If you have a [reverse proxy setup](reverse-proxy-setup.md) which uses a self-signed certificate, you will need to configure OneDev to [trust the self-signed certificate](trust-self-signed-certificate.md)
 
 * If you want to use self-signed certificate, and do not have a [reverse proxy setup](reverse-proxy-setup.md):
-  1. Run the following OpenSSL command to generate your private key and public certificate. Answer the questions and enter dns name of OneDev server when prompted
+  1. Run the following OpenSSL command to generate your private key and public certificate. Answer the questions and enter dns name of OneDev server as common name when prompted
   ```bash
   openssl req -newkey rsa:2048 -nodes -keyout your-private-key.pem -x509 -days 365 -out your-cert.pem
   ```
