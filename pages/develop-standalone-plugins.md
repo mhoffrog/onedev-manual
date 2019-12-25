@@ -1,3 +1,6 @@
+# Develop Standalone Plugins
+------------
+
 Standalone plugins do not ship together with OneDev, and can be developed without OneDev source code. Follow below steps to set up standalone plugin development environment:
 
 1. Switch to a new Eclipse workspace, and specify JDK8 as default Java runtime
