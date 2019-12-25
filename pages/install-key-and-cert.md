@@ -1,7 +1,7 @@
 # Install Private Key and Certificate
 ---------
 
-1. Run below command to generate pkcs keystore file from your certificate and private key:
+1. Run below command to generate pkcs#12 keystore file from your certificate and private key:
 
   ```bash
   openssl pkcs12 -export -out onedev.pfx -inkey /path/to/your-private-key.pem -in /path/to/your-cert.pem
