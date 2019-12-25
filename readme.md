@@ -3,4 +3,5 @@
 * [Administration Guide](pages/administration-guide.md)
 * [Upgrade Guide](pages/upgrade-guide.md)
 * [Development Guide](pages/development-guide.md)
+* [Trouble Shooting](pages/trouble-shooting.md)
 * [Appendix](pages/appendix.md)
