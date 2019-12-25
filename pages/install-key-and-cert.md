@@ -20,8 +20,13 @@
       Here ${onedev-keystore} should be replaced with path to onedev.pfx generated above  
     * Edit file _/path/to/k8s-resources/ssl/kustomization.yaml_ to set keystore and password as below:
        ```yaml
+       ...
+       files:
        - keystore=onedev.pfx.base64
+       ...
+       literals:
        - password=<specified password when generate keystore>
+       ...
        ```
     * Run `kubectl apply -k .` from the _ssl_ directory to redeploy OneDev with https enabled
 
