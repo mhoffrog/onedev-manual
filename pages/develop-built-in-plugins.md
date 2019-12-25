@@ -1,6 +1,9 @@
+# Develop Built-in Plugins
+------------
+
 Built-in plugins ships together with OneDev, and requires OneDev source code to develop. Follow below steps to add a new built-in plugin project:
 
-1. First follow [this guide](set-up-development-environment.md) to set up OneDev development environment
+1. First follow [this guide](development-environment-setup.md) to set up OneDev development environment
 
 2. Add a new plugin project by adding a new Maven module:  
   
