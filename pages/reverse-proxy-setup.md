@@ -1,9 +1,9 @@
 # Reverse Proxy Setup
 ----------
 
-## Apache Httpd
+You may configure OneDev to run behind Apache or Nginx to do reverse proxying. Below procedure assumes you are running Apache or Nginx on Ubuntu:
 
-You may configure OneDev to run behind Apache to do reverse proxying. Below procedure assumes you are running Apache on Ubuntu:
+## Apache Httpd
 
 1. Make sure you have Apache httpd server version 2.4.5 or higher installed
 1. Enable [mod_proxy](http://httpd.apache.org/docs/2.4/mod/mod_proxy.html) by running:
@@ -49,8 +49,6 @@ sudo service apache2 restart
 ```
 
 ## Nginx
-
-You may configure OneDev to run behind Nginx to do reverse proxying. Below procedure assumes you are running Nginux on Ubuntu:
 
 1. Assume your OneDev instance runs at port 6610, and you want to access it via _http://onedev.example.com_. Create a file named _onedev.example.com_ with below content under directory _/etc/nginx/sites-available_:
   ```
