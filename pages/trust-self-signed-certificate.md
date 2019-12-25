@@ -1,4 +1,4 @@
-# Trust Self-Signed Certificate
+# Trust Self Signed Certificate
 ---
 
 In case a self-signed certificate is used in [reverse proxy setup](reverse-proxy-setup.md), OneDev should be configured to trust the certificate, otherwise, builds running in Kubernetes cluster will have issues talking to OneDev server
