@@ -1,6 +1,6 @@
 ### Usage Scenario
 
-Set up the project so that anonymous user can only access release builds of certain projects
+Anonymous user can only access release builds of certain projects
 
 ### How to Set Up
 
