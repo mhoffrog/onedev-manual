@@ -2,5 +2,6 @@
 * [Installation Guide](pages/installation-guide.md)
 * [Administration Guide](pages/administration-guide.md)
 * [Upgrade Guide](pages/upgrade-guide.md)
+* [Usage Scenarios](usage-scenarios.md)
 * [Development Guide](pages/development-guide.md)
 * [Appendix](pages/appendix.md)
