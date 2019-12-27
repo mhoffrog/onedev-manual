@@ -10,7 +10,7 @@ Issues can be fixed via commit message with below pattern:
 ```
 For instance: `fix issue #100`, `resolve issue #200: Add Kubernetes support`
 
-OneDev parses fixed issues in a commit and provide cross references between issue, commit, and build, for instance, you may:
+With this info, OneDev is able to set up cross references between issue, commit, and build. For instance, you may:
 
 * Get to know which commit a issue is fixed in, and what pull request it is currently being reviewed:
 
