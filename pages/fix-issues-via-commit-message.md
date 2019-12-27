@@ -1,6 +1,6 @@
 ### Usage Scenario
 
-Fix issue via commit message
+Fix issues via commit message to link issues, commits, builds and pull requests
 
 ### How to Set Up
 
