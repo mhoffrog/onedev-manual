@@ -18,6 +18,6 @@ To do it, edit build spec to add a CI job with below setting:
 
   ![Matrix Build Commands](images/matrix-build-commands.png)
   
-1. You may check the builds page to see status of each parameter combination:
+1. You may check the builds page to see build status of each parameter combination:
 
   ![Matrix Build Builds](images/matrix-build-builds.png)
