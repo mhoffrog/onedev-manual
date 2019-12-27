@@ -4,7 +4,7 @@ Only release builds from master branch of certain projects can be deployed into 
 
 ### How to Set Up
 
-1. Manage these projects under a certain user say _production_. 
+1. Make these projects owned by a certain user say _production_. 
 2. Add job executors as below:
 
   ![Production Cluster](images/production-cluster.png)
