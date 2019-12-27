@@ -9,7 +9,7 @@
 
 ### Pull Request
 * [Run CI job against merged commit of pull request only if the pull request changed files under _src_ folder](pull-request-build.md)
-* [Require at least two members from expert group to approve if a pull request changed files under _core_ folder](pull-request-reviewer.md)
+* [Require at least two members from expert group to approve if a pull request changed files under _src/core_ folder](pull-request-reviewer.md)
 
 ### Build Set Up
 * [Specify build version when manually trigger a build](specify-build-version.md)
