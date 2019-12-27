@@ -5,7 +5,7 @@
 * [Fork and clone project](fork-clone.md)
 
 ### Issue
-* [Fix issues via commit message](fix-issues-via-commit-message.md)
+* [Fix issues via commit message to link issues, commits, builds and pull requests](fix-issues-via-commit-message.md)
 
 ### Pull Request
 
