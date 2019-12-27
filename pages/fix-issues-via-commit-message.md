@@ -20,6 +20,10 @@ OneDev parses fixed issues in a commit and provide cross references between issu
 
   ![Issue Builds](images/issue-builds.png)
   
+* List all issues fixed between any two builds:
+
+  ![Issues Fixed Between Builds](images/issues-fixed-between-builds.png)
+  
 * List all pull requests containing the issue:
 
   ![Pull Requests Including Issue](images/pull-requests-including-issue.png)
