@@ -4,4 +4,4 @@ Require at least two members from expert group to approve if a pull request chan
 
 ### How to Set Up
 
-![Branch Protection Files Require Review](images/branch-protection-files-require-review.png)
+![Branch Protection Files Require Review](../images/branch-protection-files-require-review.png)
