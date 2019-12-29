@@ -3,7 +3,7 @@
 
 ### Repository
 * [Fork and clone project](fork-clone.md)
-* [Get notification when files under folder _src/core_ are changed at master branch](commit-notification.md)
+* [Get notification when files under folder _src/core_ are changed on master branch](commit-notification.md)
 
 ### Issue
 * [Fix issues via commit message to link issues, commits, builds and pull requests](fix-issues-via-commit-message.md)
