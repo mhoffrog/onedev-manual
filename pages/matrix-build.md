@@ -1,6 +1,6 @@
 ### Usage Scenario
 
-Test against any combination of _Oracle/MySQL_ and _Linux/Windows_ upon master branch commit
+Test against any combination of _Oracle/MySQL_ and _Linux/Windows_ upon master branch committing
 
 ### How to Set Up
 
