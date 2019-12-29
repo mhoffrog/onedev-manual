@@ -16,6 +16,7 @@
 ### Build
 * [Specify build version when manually trigger a build](specify-build-version.md)
 * [Test against any combination of _Oracle/MySQL_ and _Linux/Windows_ upon master branch commit](matrix-build.md)
+* [Create an issue and assign to committer automatically when build fails; Close the issue automatically when subsequent build succeeds again](assign-build-failure-investigator.md)
 
 ### Permission
 * [Anonymous user can only access release builds of certain projects](anonymous-access.md)
