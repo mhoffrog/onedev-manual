@@ -7,6 +7,7 @@
 
 ### Issue
 * [Fix issues via commit message to link issues, commits, builds and pull requests](fix-issues-via-commit-message.md)
+* [Add module custom field and assign issue of particular module to module leader automatically](default-assignee.md)
 
 ### Pull Request
 * [Run CI job against merged commit of pull request only if the pull request changed files under _src_ folder](pull-request-build.md)
