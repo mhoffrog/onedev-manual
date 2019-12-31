@@ -1,6 +1,6 @@
 ### Usage Scenario
 
-Run CI job against merged commit of pull request only if the pull request changed files under src folder
+Run CI job against merged commit when pull request changed files under src folder
 
 ### How to Set Up
 
