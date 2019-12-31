@@ -1,5 +1,5 @@
 ### Usage Scenario
 
-Create an issue and assign to committer automatically when build fails; Close the issue automatically when subsequent build succeeds again
+Auto-create an issue and assign to committer for investigation upon build failure; Auto-close the issue when subsequent build succeeds again
 
 ### How to Set Up
