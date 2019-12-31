@@ -10,6 +10,8 @@
 * [Add custom field _Platform_ and _Kernel Version_. _Kernel Version_ should be displayed only when _Platform_ is specified as _Linux_](issue-conditional-field.md)
 * [Add custom field _Module_ and assign issue of particular module to module leader automatically](default-assignee.md)
 * [Auto-transit issue to custom state _Deployed_ when build fixing it is deployed](issue-deployed.md)
+* [Auto-transit issue to custom state _In Review_ when relevant pull request is opened](issue-in-review.md)
+* [Add custom state _Verified_. Only _Tester_ role can transit issues to this state](issue-verified.md)
 
 ### Pull Request
 * [Run CI job against merged commit of pull request only if the pull request changed files under _src_ folder](pull-request-build.md)
