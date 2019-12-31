@@ -6,8 +6,9 @@
 * [Get notification when files under folder _src/core_ are changed on master branch](commit-notification.md)
 
 ### Issue
+* [Add custom field _Platform_ and _Kernel Version_. _Kernel Version_ should be displayed only when _Platform_ is specified as _Linux_](issue-conditional-field.md)
 * [Fix issues via commit message to link issues, commits, builds and pull requests](fix-issues-via-commit-message.md)
-* [Add module custom field and assign issue of particular module to module leader automatically](default-assignee.md)
+* [Add custom field _Module_ and assign issue of particular module to module leader automatically](default-assignee.md)
 
 ### Pull Request
 * [Run CI job against merged commit of pull request only if the pull request changed files under _src_ folder](pull-request-build.md)
