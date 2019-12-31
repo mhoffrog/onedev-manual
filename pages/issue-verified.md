@@ -1,6 +1,6 @@
 ### Usage Scenario
 
-Add custom state _Verified_. Only _Tester_ role can transit issues to this state. The transition is applicable for all issue types except _Task_ 
+Add custom state _Verified_. Only _Tester_ role can transit issues to this state. Further, the transition is applicable for all issue types except _Task_ 
 
 ### How to Set Up
 
