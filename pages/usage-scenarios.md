@@ -14,7 +14,7 @@
 * [Add custom state _Verified_. Only Tester role can transit issues to this state. Further, the transition is applicable for all issue types except Task](issue-verified.md)
 
 ### Pull Request
-* [Run CI job against merged commit of pull request only if the pull request changed files under _src_ folder](pull-request-build.md)
+* [Run CI job against merged commit when pull request changed files under _src_ folder](pull-request-build.md)
 * [Require at least two members from expert group to approve if a pull request changed files under _src/core_ folder](pull-request-reviewer.md)
 
 ### Build
