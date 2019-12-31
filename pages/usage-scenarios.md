@@ -5,6 +5,10 @@
 * [Fork and clone project](fork-clone.md)
 * [Get notification when files under folder _src/core_ are changed on master branch](commit-notification.md)
 
+### Pull Request
+* [Run CI job against merged commit when pull request changed files under _src_ folder](pull-request-build.md)
+* [Require at least two members from expert group to approve if a pull request changed files under _src/core_ folder](pull-request-reviewer.md)
+
 ### Issue
 * [Fix issues via commit message to link issues, commits, builds and pull requests](fix-issues-via-commit-message.md)
 * [Add custom field _Platform_ and _Kernel Version_. _Kernel Version_ should be displayed only when _Platform_ is specified as _Linux_](issue-conditional-field.md)
@@ -12,10 +16,6 @@
 * [Auto-transit issue to custom state _Deployed_ when build fixing it is deployed](issue-deployed.md)
 * [Auto-transit issue to custom state _In Review_ when relevant pull request is opened](issue-in-review.md)
 * [Add custom state _Verified_. Only Tester role can transit issues to this state. Further, the transition is applicable for all issue types except Task](issue-verified.md)
-
-### Pull Request
-* [Run CI job against merged commit when pull request changed files under _src_ folder](pull-request-build.md)
-* [Require at least two members from expert group to approve if a pull request changed files under _src/core_ folder](pull-request-reviewer.md)
 
 ### Build
 * [Specify build version when manually trigger a build](specify-build-version.md)
