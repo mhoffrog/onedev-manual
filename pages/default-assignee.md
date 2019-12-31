@@ -1,6 +1,6 @@
 ### Usage Scenario
 
-Add module custom field and assign issue of particular module to module leader automatically
+Add custom field _Module_ and assign issue of particular module to module leader automatically
 
 ### How to Set Up
 
