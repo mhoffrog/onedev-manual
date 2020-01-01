@@ -10,4 +10,4 @@ Add custom state _Verified_. Only _Tester_ role can transit issues to this state
   
 1. Add transition to move issue to _Verified_ state like below:
 
-  ![Transit Verified](../images/transit-verified.png)
+  ![Transit Verified](../images/transit-to-verified.png)
