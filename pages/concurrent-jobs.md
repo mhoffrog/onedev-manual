@@ -8,7 +8,7 @@ Generate files in one job, and then for each file, process with another job conc
 
   ![Get Files To Process](../images/get-files-to-process.png)
   
-1. Edit build spec to add _Generate Files_ job. For demonstration purpose, we simply create some empty files:
+1. Edit build spec of a project to add _Generate Files_ job. For demonstration purpose, we simply create some empty files:
 
   ![Commands To Generate Files](../images/commands-to-generate-files.png)
   
