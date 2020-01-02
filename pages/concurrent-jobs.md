@@ -28,7 +28,7 @@ Generate files in one job, and then for each file, process with another job conc
 
   ![Process File Command](../images/process-file-command.png)
   
-1. Expand _More Settings_ of job _Generate Files_ and add a post build action to run job _Process File_.  Configure parameter _file_ of triggered job to get values via script we defined in the first step:
+1. Expand _More Settings_ of job _Generate Files_ and add a post build action to run job _Process File_.  Configure parameter _file_ to use list of file names returned by the script we defined in the first step. For each element in the list, OneDev will create an instance of specified job using that element as parameter
 
   ![Run Job To Process File](../images/run-job-to-process-file.png)
   
