@@ -22,6 +22,7 @@
 * [Prompt for _Platform_ and _Kernel Version_ when manually trigger a build. _Kernel Version_ should be displayed only when _Platform_ is specified as _Linux_](build-conditional-param.md)
 * [Test against any combination of _Oracle/MySQL_ and _Linux/Windows_ upon master branch committing](matrix-build.md)
 * [Auto-create an issue and assign to committer for investigation upon build failure on master branch; Auto-close the issue when subsequent build succeeds again](assign-build-failure-investigator.md)
+* [Generate files in one job, and then for each file, process with another job concurrently](concurrent-jobs.md)
 * [Anonymous user can only access release builds of certain projects](anonymous-access.md)
 * [Release builds can only be generated from master branch](release-on-master.md)
 * [Only release builds from master branch of certain projects can be deployed into production cluster, all other builds should use the test cluster](production-cluster.md)
