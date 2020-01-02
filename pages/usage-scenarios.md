@@ -24,6 +24,7 @@
 * [Auto-create an issue and assign to committer for investigation upon build failure on master branch; Auto-close the issue when subsequent build succeeds again](assign-build-failure-investigator.md)
 * [Generate files in one job, and then for each file, process with another job concurrently](concurrent-jobs.md)
 * [Retry jobs upon Kubernetes worker node error](retry-job.md)
+* [Use MySQL service while running the job](mysql-service.md)
 
 ### Security
 
