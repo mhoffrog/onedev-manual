@@ -10,6 +10,6 @@ Use MySQL service while running job
   
   Note that for MySQL root password, we are referencing secret _db-password_ defined in [this tutorial ](build-spec-secret.md)
   
-1. For Kubernetes executor, if you want to run the service on particular nodes, configure service locator in section _More Settings_ like below:
+1. If the job runs with a Kubernetes executor and if you want to run MySQL  service on particular nodes, configure service locator in section _More Settings_ of the executor like below:
 
   ![Service Locator](../images/service-locator.png)
