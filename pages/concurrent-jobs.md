@@ -32,4 +32,4 @@ Generate files in one job, and then for each file, process with another job conc
 
   ![Run Job To Process File](../images/run-job-to-process-file.png)
   
-1. Save the build spec and run job _Generate Files_. OneDev will create an instance of _Process File_ to process each generated file concurrently in multiple containers
+1. Save the build spec and run job _Generate Files_ to see it in action. Note that concurrency of job _Process File_ is determined by available resources of relevant job executors.
