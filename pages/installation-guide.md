@@ -1,7 +1,7 @@
 # Installation Guide
 ----------
 
-### Browser compatibilities
+### Browser requirement
 
 * Internet Explorer 11 or higher
 * Microsoft Edge 
