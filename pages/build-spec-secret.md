@@ -15,5 +15,3 @@ We should never use secret value directly in build spec as otherwise everyone wi
 1. Now reference the secret from build spec via variable. For instance:
 
   ![Use Job Secret](../images/use-job-secret.png)
-  
-Now not only the secret is hidden from build spec, but also its value will be masked from build log and error message
