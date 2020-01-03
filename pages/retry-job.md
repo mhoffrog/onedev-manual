@@ -7,7 +7,7 @@ Retry jobs upon Kubernetes worker node error
 In section _Retry Upon Failure_ of the job, configure _Retry Condition_ to detect appropriate worker node error. For instance on Google Kubernetes Engine, if a node goes down the log will normally contains such line:
 
 ```
-Error from server: Get https://<ip address>:<port>/containerLogs/k8s-test-53/job/main?follow=true&timestamps=true: EOF```
+Error from server: Get https://<ip address>:<port>/containerLogs/k8s-test-53/job/main?follow=true&timestamps=true: EOF
 ```
 
 Or this line:
