@@ -1,6 +1,6 @@
 * [Concepts](pages/concepts.md)
 * [Installation Guide](pages/installation-guide.md)
-* [Five Minutes Tutorial](pages/5min-tutorial.md)
+* [A Five Minutes Tutorial](pages/5min-tutorial.md)
 * [Administration Guide](pages/administration-guide.md)
 * [Upgrade Guide](pages/upgrade-guide.md)
 * [Usage Scenarios](pages/usage-scenarios.md)
