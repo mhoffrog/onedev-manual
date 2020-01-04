@@ -25,11 +25,11 @@ This tutorial demonstrates how to set up a project with git repository, issue tr
   ```
   Input administration account you've specified above as git credential
   
-1. Visit files page of project _my-app_ from OneDev, click link _add build spec_ to bring up the GUI to add build specification for the project. For typical projects, OneDev suggests default job templates like below:
+1. Visit files page of project _my-app_ from OneDev, click link _add build spec_ to bring up the GUI to add build specification. For typical projects, OneDev suggests default job templates like below:
 
   ![Add Job Wizard](../images/add-job-wizard.png)
   
-1. Just use the default template, and save the spec. Now you will see that a CI build is ongoing
+1. Just use the default template, and save the spec. Now you will see that a CI build is ongoing:
 
   ![After Add Ci Job](../images/after-add-ci-job.png)
     
