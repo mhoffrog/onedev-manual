@@ -12,6 +12,8 @@
 ### Issue
 * [Fix issues via commit message to link issues, commits, builds and pull requests](fix-issues-via-commit-message.md)
 * [Add custom field _Platform_ and _Kernel Version_. _Kernel Version_ should be displayed only when _Platform_ is specified as _Linux_](issue-conditional-field.md)
+* [Continue with above scenario. For all open Windows issues assigned to tommy or jerry, reassign to robin](batch-assign.md)
+* [Create an issue board to show open issue assignment between different users](assignment-board.md)
 * [Add custom field _Module_ and assign issue of particular module to module leader automatically](default-assignee.md)
 * [Auto-transit issue to custom state _Deployed_ when build fixing it is deployed](issue-deployed.md)
 * [Auto-transit issue to custom state _In Review_ when relevant pull request is opened](issue-in-review.md)
