@@ -33,4 +33,4 @@ This tutorial demonstrates how to set up a project with git repository, issue tr
 
   ![After Add Ci Job](../images/after-add-ci-job.png)
     
-1. Congrats! You've finished the tutorial. Continue to learn how to set up OneDev for [some typical usage scenarios](usage-scenarios) if you are interested
+1. Congrats! You've finished the tutorial. Continue to learn how to set up OneDev for [some typical usage scenarios](usage-scenarios.md) if you are interested
