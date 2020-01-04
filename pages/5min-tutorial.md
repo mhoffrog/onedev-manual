@@ -23,7 +23,7 @@ This tutorial demonstrates how to set up a project with git repository, issue tr
   git remote add origin http://<OneDev host>:6610/projects/my-app
   git push origin master:master
   ```
-  Input administration account you've specified when set up OneDev as git credential
+  Input administration account you've specified earlier as git credential
   
 1. Visit files page of project _my-app_ from OneDev, click link _add build spec_ to bring up the GUI to add build specification for the project. For typical projects, OneDev suggests default job templates like below:
 
