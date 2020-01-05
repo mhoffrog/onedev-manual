@@ -27,6 +27,7 @@
 * [Generate files in one job, and then for each file, process with another job concurrently](concurrent-jobs.md)
 * [Retry jobs upon Kubernetes worker node error](retry-job.md)
 * [Use MySQL service while running the job](mysql-service.md)
+* [Run build on windows node in Kubernetes cluster](k8s-windows-node.md)
 
 ### Security
 
