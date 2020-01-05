@@ -8,7 +8,7 @@ Windows requires that the [OS version of your image needs to be compatible with 
 
 Let's go through an example to demonstrate this process:
 
-1. Create a Kubernetes cluster containing Windows node on Azure following [this tutorial](https://docs.microsoft.com/en-us/azure/aks/windows-container-cli)
+1. Create a Kubernetes cluster containing Windows node on Azure following [this tutorial](https://docs.microsoft.com/en-us/azure/aks/windows-container-cli) (At the time writing this doc, Kubernetes version 1.14.6 used in the tutorial is no longer available in the region. You may need to use a later version such as 1.14.8)
 2. Deploy OneDev server into created cluster following [this guide](deploy-into-k8s.md)
 3. Visit job executors page in administration menu of OneDev, delete the default auto-discover executor, and add a Kubernetes executor with below label selectors (assume name of Windows node pool is _npwin_):
 
