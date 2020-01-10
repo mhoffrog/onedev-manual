@@ -10,14 +10,14 @@
     ```bash
     docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):/usr/bin/docker -v $(pwd)/onedev:/opt/onedev -v <onedev-keystore>:/opt/onedev/conf/onedev.pfx -e https_port=6643 -e keystore=/opt/onedev/conf/onedev.pfx -e keystore_password=<onedev-keystore-password> -p 6643:6643 1dev/server
     ```
-    Here _<onedev-keystore>_ should be replaced with **absolute path** to onedev.pfx generated above, and _<onedev-keystore-password>_ should be replaced with specified password when generate the keystore
+    Here `<onedev-keystore>` should be replaced with **absolute path** to onedev.pfx generated above, and `<onedev-keystore-password>` should be replaced with specified password when generate the keystore
  
 1. If you are [deploying OneDev into Kubernetes](deploy-into-k8s.md):
     * Run below command to generate base64 encoded keystore into ssl directory of Kubernetes resources:
       ```bash
       base64 <onedev-keystore> > /path/to/k8s-resources/ssl/onedev.pfx.base64
       ```
-      Here _<onedev-keystore>_ should be replaced with path to onedev.pfx generated above  
+      Here `<onedev-keystore>` should be replaced with path to onedev.pfx generated above  
     * Edit file _/path/to/k8s-resources/ssl/kustomization.yaml_ to set keystore and password as below:
        ```yaml
        ...
