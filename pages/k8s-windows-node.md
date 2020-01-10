@@ -39,3 +39,5 @@ Let's go through an example to demonstrate this process:
   |`mcr.microsoft.com/windows/servercore:<OS version from above step>`|echo hello world|
   
 8. Save and run the job. The job may take much longer than Linux based jobs for the first run, due to the fact that Windows image is much larger
+
+**NOTE**: For fields accepting variables in build spec, make sure to use double slash as Windows path separator as single back slash is treated as escape character
