@@ -3,7 +3,7 @@ A Five Minutes Tutorial
 
 This tutorial demonstrates how to set up a project with git repository, issue tracking and continuous integration.
 
-1. Run below command to start OneDev in docker mode ([other installation methods](installation-guide.md) also available if you want to explore more):
+1. Run below command on Linux or Mac OS X to start OneDev in docker mode ([other installation methods](installation-guide.md) also available if you want to explore more):
 
   ```
   docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):/usr/bin/docker -v $(pwd)/onedev:/opt/onedev -p 6610:6610 1dev/server
