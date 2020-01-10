@@ -8,7 +8,7 @@ Some tasks need to be performed in maintenance mode, such as restoring database,
   1. Run below command to enter into container:
 
     ```bash
-    docker run -it --rm -v <onedev data directory>:/opt/onedev 1dev/server bash 
+    docker run -it --rm -v $(pwd)/onedev:/opt/onedev 1dev/server bash 
     ```
   1. Change into directory _/opt/onedev_ in the container to perform various maintenance tasks
   
