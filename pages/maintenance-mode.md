@@ -22,7 +22,7 @@ Some tasks need to be performed in maintenance mode, such as restoring database,
   3. Change to directory _/opt/onedev_ in the container to perform various maintenance tasks
   4. After performing maintenance tasks, you may start OneDev in normal mode by changing to the production folder and run `kubectl apply -k .`
 
-* If you are [running OneDev on bare metal machine](bare-metal-installation.md):
+* If you are [running OneDev on bare metal machine](run-on-bare-metal-machine.md):
 
   1. Stop OneDev service 
   2. Change to the directory where OneDev is installed to perform maintenance tasks
