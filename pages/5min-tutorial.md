@@ -10,9 +10,11 @@ This tutorial helps you trying out OneDev on your local development machine. Fol
   ```
   If you want to try on Windows machine, please follow the [bare metal installation guide](run-on-bare-metal-machine.md)
 
-1. Access url `http://<onedev host>:6610` to set up OneDev
+1. Point your browser to the url printed in console to set up OneDev
 
-1. From OneDev projects page, add a project, say _my-app_. For demonstration purpose, run below command from your terminal to create a react application:
+1. From OneDev projects page, add a project _my-app_
+
+1. Run below command from your terminal to create a react application:
 
   ```
   npx create-react-app my-app
@@ -21,10 +23,10 @@ This tutorial helps you trying out OneDev on your local development machine. Fol
 1. Change into directory _my-app_, and run below command to push code to OneDev:
 
   ```
-  git remote add origin http://<OneDev host>:6610/projects/my-app
+  git remote add origin <onedev url>/projects/my-app
   git push origin master:master
   ```
-  Input administration account you've specified above as git credential
+  Replace `<onedev url>` with the url printed in console, and input administration account you've specified above as git credential
   
 1. Visit files page of project _my-app_ from OneDev, click link _add build spec_ to bring up the GUI to add build specification. For typical projects, OneDev suggests default job templates like below:
 
