@@ -8,6 +8,7 @@ This tutorial helps you trying out OneDev on your local development machine. Fol
   ```
   docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):/usr/bin/docker -v $(pwd)/onedev:/opt/onedev -p 6610:6610 1dev/server
   ```
+  If you want to try on Windows machine, please follow the [bare metal installation guide](run-on-bare-metal-machine.md)
 
 1. Access url `http://<onedev host>:6610` to set up OneDev
 
