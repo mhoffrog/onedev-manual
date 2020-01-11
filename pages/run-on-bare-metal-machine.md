@@ -8,8 +8,8 @@ To achieve maximum flexibility, you may run OneDev on bare metal machine (this p
 1. Make sure your system has [git 2.11.1 or higher](https://git-scm.com/downloads) installed and available in system path
 1. On Linux and Mac, make sure your system has [curl](https://curl.haxx.se) installed and available in system path
 1. Select desired [OneDev release](https://code.onedev.io/projects/onedev-server/builds?query=%22Job%22+is+%22Release%22)  and download `onedev-<release>.zip`
-1. Extract the downloaded file into selected installation directory. Let's assume it to be _/opt/onedev_. Make sure the user running OneDev has *full access rights* to _/opt/onedev_
-1. Open a command prompt, change to folder _/opt/onedev/bin_, and run command _server.bat console_ (on Windows) or _server.sh console_ (on Unix/Linux/Mac) to start the server
+1. Extract downloaded file into selected installation directory. Make sure current user has *full permissions* to the directory
+1. Open a command prompt, change to the installation directory, and run command _server.bat console_ (on Windows) or _./server.sh console_ (on Unix/Linux/Mac) to start the server
 
 ### Post-install tasks (optional)
 
