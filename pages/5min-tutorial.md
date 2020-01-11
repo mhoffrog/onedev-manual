@@ -37,5 +37,5 @@ This tutorial helps you trying out OneDev on your local development machine
     
 ### Further Reading  
 
-* [Deploy OneDev into your Kubernetes cluster](deploy-into-k8s.md) and get a build farm
-* Get to know how to configure OneDev for [typical usage scenarios](usage-scenarios.md)
+* [Deploy OneDev into your Kubernetes cluster and get a build farm](deploy-into-k8s.md)
+* [Get to know how to configure OneDev for typical usage scenarios](usage-scenarios.md)
