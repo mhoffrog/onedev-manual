@@ -1,11 +1,9 @@
 A Five Minutes Tutorial
 ---
 
-This tutorial helps you trying out OneDev on your local development machine
+This tutorial helps you trying out OneDev on your local development machine. Follow [this procedure](deploy-into-k8s.md) if you want to deploy OneDev to a Kubernetes cluster
 
-### Procedure
-
-1. Run below command on Linux or Mac OS X to start OneDev in docker mode ([other installation methods](installation-guide.md) also available if you want to explore more):
+1. Run below command on Linux or Mac OS X to start OneDev in docker mode:
 
   ```
   docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):/usr/bin/docker -v $(pwd)/onedev:/opt/onedev -p 6610:6610 1dev/server
@@ -35,7 +33,4 @@ This tutorial helps you trying out OneDev on your local development machine
 
   ![After Add Ci Job](../images/after-add-ci-job.png)
     
-### Further Reading  
-
-* [Deploy OneDev into your Kubernetes cluster and get a build farm](deploy-into-k8s.md)
-* [Get to know how to configure OneDev for typical usage scenarios](usage-scenarios.md)
+  Congrats! You've finished the tutorial. Continue to check out [typical usage scenarios](usage-scenarios.md) if you are interested.
