@@ -33,4 +33,4 @@ This tutorial helps you trying out OneDev on your local development machine. Fol
 
   ![After Add Ci Job](../images/after-add-ci-job.png)
     
-1. Congrats! You've finished the tutorial. Continue to check out [typical usage scenarios](usage-scenarios.md) if you are interested.
+1. Congrats! You've finished the tutorial. Continue to check [typical usage scenarios](usage-scenarios.md) if you are interested.
