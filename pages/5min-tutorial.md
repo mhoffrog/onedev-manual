@@ -1,7 +1,9 @@
 A Five Minutes Tutorial
 ---
 
-This tutorial demonstrates how to set up a project with git repository, issue tracking and continuous integration.
+This tutorial helps you trying out OneDev on your local development machine
+
+### Procedure
 
 1. Run below command on Linux or Mac OS X to start OneDev in docker mode ([other installation methods](installation-guide.md) also available if you want to explore more):
 
@@ -33,4 +35,9 @@ This tutorial demonstrates how to set up a project with git repository, issue tr
 
   ![After Add Ci Job](../images/after-add-ci-job.png)
     
-1. Congrats! You've finished this tutorial. Continue to learn other tutorials for [typical usage scenarios](usage-scenarios.md) if you are interested
+  Congrats! You've finished this tutorial
+
+### Further Reading  
+
+* [Deploy OneDev into your Kubernetes](deploy-into-k8s.md) cluster and get a build farm
+* Get to know how to configure OneDev for [typical usage scenarios](usage-scenarios.md)
