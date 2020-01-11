@@ -31,12 +31,10 @@ This tutorial helps you trying out OneDev on your local development machine
 
   ![Add Job Wizard](../images/add-job-wizard.png)
   
-1. Just use the default template, and save the spec. Now you will see that a CI build is ongoing:
+1. Just use the default template, and save the spec. Now you will see that a CI build is running:
 
   ![After Add Ci Job](../images/after-add-ci-job.png)
     
-  Congrats! You've finished this tutorial
-
 ### Further Reading  
 
 * [Deploy OneDev into your Kubernetes](deploy-into-k8s.md) cluster and get a build farm
