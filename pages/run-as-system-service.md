@@ -13,7 +13,7 @@ This document explains how to configure OneDev to run as system service so that 
 
 1. Edit file _/opt/onedev/conf/wraper.conf_ to set value of property _wrapper.java.command_ as path to java command
 
-1. By default, the service will run under root user. To run as another user, edit file _/opt/onedev/bin/server.sh_ and uncomment below line to specify the user. Make sure specified user has full permission over _/opt/onedev_ and all its sub directories:
+1. By default, the service will run under root user. To run as another user, edit file _/opt/onedev/bin/server.sh_ and uncomment below line to specify the user. Make sure specified user has full permissions to _/opt/onedev_ and all its sub directories:
 
   ```
   #RUN_AS_USER=
