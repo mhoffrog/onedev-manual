@@ -8,11 +8,13 @@ Specify build version when manually trigger a build and create a corresponding t
 
   ![Set Build Version](../images/set-build-version.png)
   
- Command to set build version:
-  ```
-  echo "##onedev[SetBuildVersion '@params:buildVersion@']"
-  ```
-  
 1. Define a post-build action to create tag upon build success like below:
 
   ![Create Tag](../images/create-tag.png)
+  
+### Resources
+
+Command to set build version:
+```
+echo "##onedev[SetBuildVersion '@params:buildVersion@']"
+```
