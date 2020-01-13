@@ -7,7 +7,12 @@ Specify build version when manually trigger a build and create a corresponding t
 1. Define a job parameter say _buildVersion_ and use value of that parameter to set version of running build like below:
 
   ![Set Build Version](../images/set-build-version.png)
-
+  
+ Command to set build version:
+  ```
+  echo "##onedev[SetBuildVersion '@params:buildVersion@']"
+  ```
+  
 1. Define a post-build action to create tag upon build success like below:
 
   ![Create Tag](../images/create-tag.png)
