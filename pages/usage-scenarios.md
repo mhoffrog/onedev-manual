@@ -20,7 +20,7 @@
 * [Add custom state _Verified_. Only Tester role can transit issues to this state. Further, the transition is applicable for all issue types except Task](issue-verified.md)
 
 ### Build
-* [Specify build version when manually trigger a build](specify-build-version.md)
+* [Specify build version when manually trigger a build and create a corresponding tag if build is successful](specify-build-version.md)
 * [Prompt for _Platform_ and _Kernel Version_ when manually trigger a build. _Kernel Version_ should be displayed only when _Platform_ is specified as _Linux_](build-conditional-param.md)
 * [Test against any combination of _Oracle/MySQL_ and _Linux/Windows_ upon master branch committing](matrix-build.md)
 * [Auto-create an issue and assign to committer for investigation upon build failure on master branch; Auto-close the issue when subsequent build succeeds again](assign-build-failure-investigator.md)
