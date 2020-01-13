@@ -31,7 +31,7 @@ Generate files in one job, process each file concurrently in the second job, and
   echo 3 > file3
   ```
   
-1. Continue to edit job _Generate Files_. In _Artifacts & Reports_ section, publish generated files so that job _Process File_ can retrieve:
+1. Continue to edit job _Generate Files_. In _Artifacts & Reports_ section, publish generated files so that other jobs can consume:
 
   ![Publish Generated Files](../images/generate-process-collect/publish-generated-files.png)
   
@@ -39,16 +39,16 @@ Generate files in one job, process each file concurrently in the second job, and
 
   ![Process File Job](../images/generate-process-collect/process-file-job.png)
   
-  For demonstration purpose, the command simply prepend message _processed_ to the file content:
+  For demonstration purpose, the command prepend message _processed_ to the file content:
   ``` bash
   echo "processed $(cat @params:file@)" > @params:file@
   ```
   
-1. Continue to edit job _Process File_. In _Dependencies & Services_ section, add a job dependency to retrieve the published file with name equal to parameter _file_:
+1. Continue to edit job _Process File_. In _Dependencies & Services_ section, add a job dependency to retrieve published file with name equal to parameter _file_:
 
   ![Retrieve File From Generate Files Job](../images/generate-process-collect/retrieve-file-from-generate-files-job.png)
   
-1. Continue to edit job _Process File_. In _Artifacts & Reports_ section, publish generated files so that job _Collect Files_ can retrieve:
+1. Continue to edit job _Process File_. In _Artifacts & Reports_ section, publish processed file:
 
   ![Publish Processed File](../images/generate-process-collect/publish-processed-file.png)
 
@@ -62,7 +62,7 @@ Generate files in one job, process each file concurrently in the second job, and
 
   ![Trigger Process File Job](../images/generate-process-collect/trigger-process-file-job.png)
   
-1. Go back to edit job _Generate Files_. In _More Settings_ section, add a post-action to trigger job _Collect Files_, with param _upstream-build-number_ set to value of current build:
+1. Go back to edit job _Generate Files_. In _More Settings_ section, add a post-action to trigger job _Collect Files_, with param _upstream-build-number_ set to number of current build:
 
   ![Trigger Collect Files Job](../images/generate-process-collect/trigger-collect-files-job.png)
   
