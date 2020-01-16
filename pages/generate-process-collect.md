@@ -4,7 +4,7 @@ Generate files in one job, process each file concurrently in the second job, and
 
 ### How to Set Up
 
-1. Define a groovy script to get list of published artifact names from upstream build whose number is passed via parameter _Upstream-Build-Number_:
+1. Define a groovy script to get list of published artifact names from upstream build whose number is passed via parameter _upstream-build-number_:
 
   ![Get File Names From Upstream](../images/generate-process-collect/get-file-names-from-upstream.png)
   
@@ -31,7 +31,7 @@ Generate files in one job, process each file concurrently in the second job, and
   echo 3 > file3
   ```
   
-1. Continue to edit job _Generate Files_. In _Artifacts & Reports_ section, publish generated files so that other jobs can consume:
+1. Continue to edit job _Generate Files_. In _Artifacts & Reports_ section, publish generated files:
 
   ![Publish Generated Files](../images/generate-process-collect/publish-generated-files.png)
   
