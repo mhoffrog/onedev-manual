@@ -4,7 +4,7 @@ Use MySQL service while running job
 
 ### How to Set Up
 
-1. In section _Dependencies & Services_ to add a service like below:
+1. Add a service in section _Dependencies & Services_  like below:
 
   ![Mysql Service](../images/mysql-service.png)
   
