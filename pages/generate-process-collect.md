@@ -66,6 +66,6 @@ Generate files in one job, process each file concurrently in the second job, and
 
   ![Trigger Collect Files Job](../images/generate-process-collect/trigger-collect-files-job.png)
   
-1. Done! Now run job _Generate Files_. After it succeeds, three builds of job _Process File_ will be running to process generated files. After all files are processed, job _Collect Files_ will be running to collect the results
+1. Done! Now run job _Generate Files_. After it succeeds, three builds of job _Process File_ will run to process generated files. After all files are processed, job _Collect Files_ will be running to collect the results
 
   ![Generate Process Collect Running](../images/generate-process-collect/generate-process-collect-running.png)
