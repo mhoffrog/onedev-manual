@@ -1,7 +1,7 @@
 A Five Minutes Tutorial
 ---
 
-This tutorial helps you trying out OneDev on your local machine. Follow [**this tutorial**](test-in-k8s.md) to try OneDev with build farm in Kubernetes
+This tutorial helps you trying out OneDev on your local machine. Follow [**this tutorial**](test-in-k8s.md) to try build farm in Kubernetes
 
 1. Run below command on Linux or Mac OS X to start OneDev in docker mode:
 
