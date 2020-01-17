@@ -10,7 +10,7 @@ This tutorial helps you trying out OneDev on your local development machine. Fol
   ```
   If you want to try on Windows machine, please follow the [bare metal installation guide](run-on-bare-metal-machine.md)
 
-1. Point your browser to `http://localhost:6610` to set up OneDev. In system setting page, just use suggested server url (`http://172.17.0.1:6610`)
+1. Point your browser to `http://localhost:6610` to set up OneDev. In system setting page, just use suggested server url (`http://localhost:6610`)
 
 1. From OneDev projects page, add a project _my-app_
 
