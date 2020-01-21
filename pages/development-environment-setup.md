@@ -8,13 +8,13 @@
 
     ![install_js_web_dev.png](../images/development-environment-setup/install_js_web_dev.png)
     
-1. Create a new directory as Eclipse workspace, for instance, _/home/mylogin/myworkspace_
+1. Create a new directory as Eclipse workspace, for instance, _/home/robin/workspace_
 1. Clone OneDev source code into a sub directory under Eclipse workspace:
 
     ```
-    git clone https://code.onedev.io/projects/onedev-server /home/mylogin/myworkspace/onedev-server
+    git clone https://code.onedev.io/projects/onedev-server /home/robin/workspace/onedev-server
     ```
-1. Run Eclipse and open workspace _/home/mylogin/myworkspace_
+1. Run Eclipse and open workspace _/home/robin/workspace_
 2. Specify JDK instead of JRE as default. Otherwise, Eclipse will not be able to access Java sources to get help
 
     ![use-jdk-as-default.png](../images/development-environment-setup/use-jdk-as-default.png)
