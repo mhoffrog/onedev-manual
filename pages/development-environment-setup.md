@@ -27,7 +27,7 @@
 
     ![import-maven-projects.png](../images/development-environment-setup/import-maven-projects.png)
     -------------
-    ![import-workspace-projects.png](../images/development-environment-setup/import-workspace-projects.png)
+    ![Import Workspace Projects](../images/development-environment-setup/import-workspace-projects.png)
     
 1. Wait patiently for Eclipse to download necessary dependencies and build. In case there are compilation errors, update the projects as below:
 
