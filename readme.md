@@ -4,5 +4,5 @@
 * [Administration Guide](pages/administration-guide.md)
 * [Upgrade Guide](pages/upgrade-guide.md)
 * [Usage Scenarios](pages/usage-scenarios.md)
-* [Development Guide](pages/development-guide.md)
+* [Contribution Guide](pages/contribution-guide.md)
 * [Appendix](pages/appendix.md)
