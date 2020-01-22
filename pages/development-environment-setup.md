@@ -1,6 +1,7 @@
 # Development Environment Setup
 -----------
 
+### Procedure
 1. Make sure you have [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed
 1. Make sure you have [Git](https://git-scm.com/) version 2.11.1 or higher installed
 1. Install [Eclipse Oxygen or higher](http://www.eclipse.org/) for Java development
@@ -8,7 +9,7 @@
 
     ![install_js_web_dev.png](../images/development-environment-setup/install_js_web_dev.png)
     
-1. Create a new directory as Eclipse workspace, for instance, _/home/robin/workspace_
+1. Create a new directory as Eclipse workspace. Let's assume it to be _/home/robin/workspace_
 1. Clone OneDev source code into a sub directory under Eclipse workspace:
 
     ```
@@ -40,5 +41,17 @@
     ----------
     ![select-bootstrap-class.png](../images/development-environment-setup/select-bootstrap-class.png)
     
-    In case OneDev reports _Unable to find product directory_. Please check the _Run Configuration_ and make sure that the project is specified as _server-product_ as below:
+### Error Diagnostics
+
+1. In case there are compilation errors even if you've updated the project as described in step 11 above, run below from command line to make sure it succeeds:
+  ```bash
+  cd /home/robin/workspace/onedev-server
+  mvn clean package
+  ```
+  If it still does not work, most probably your network has some issues downloading dependencies. Otherwise go back to Eclipse, **refresh** and **update** all projects, then errors should go away.
+  
+1. In case OneDev reports _Unable to find product directory_ upon running. Please check launched configuration and make sure project is specified as _server-product_ as below:
+    
     ![Run Configuration Project](../images/development-environment-setup/run-configuration-project.png)
+    
+    If you still get the error, check if directory _/home/robin/workspace/onedev-server/server-product/target/sandbox_ exists. This directory should be created automatically as long as compilation is successful in Eclipse
