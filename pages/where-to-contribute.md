@@ -1,4 +1,4 @@
-# Where One Can Contribute
+# Where to Contribute
 ---
 
 One may contribute in below areas for now (more extension points will be added):
