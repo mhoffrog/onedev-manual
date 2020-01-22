@@ -39,3 +39,6 @@
     ![run-as-java-application.png](../images/development-environment-setup/run-as-java-application.png)
     ----------
     ![select-bootstrap-class.png](../images/development-environment-setup/select-bootstrap-class.png)
+    
+    In case OneDev reports _Unable to find product directory_. Please check the _Run Configuration_ and make sure that the project is specified as _server-product_ as below:
+    ![Run Configuration Project](../images/development-environment-setup/run-configuration-project.png)
