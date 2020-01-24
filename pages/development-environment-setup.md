@@ -41,7 +41,7 @@
     ----------
     ![select-bootstrap-class.png](../images/development-environment-setup/select-bootstrap-class.png)
     
-### Error Diagnostics
+### Trouble Shooting
 
 1. In case there are compilation errors even if you've updated the project as described in step 11 above, run below from command line to make sure it succeeds:
   ```bash
