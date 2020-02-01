@@ -1,6 +1,6 @@
 # Run on Bare Metal Machine
 
-To achieve maximum flexibility, you may run OneDev on bare metal machine (this procedure also works if you are running OneDev on virtual machines)
+To achieve maximum flexibility, you may run OneDev on bare metal machine
 
 ### Installation
 
