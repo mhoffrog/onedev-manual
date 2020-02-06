@@ -7,7 +7,7 @@ OneDev database can be backed up via database backup page in administration menu
 
 Database can also be backed up in [maintenance mode](maintenance-mode.md) by running (assume OneDev is installed in _/opt/onedev_):
 ```
-/opt/onedev/bin/restore.(sh|bat) /path/to/backup.zip
+/opt/onedev/bin/backup.(sh|bat) /path/to/backup.zip
 ```
 
 ### Database Restore
