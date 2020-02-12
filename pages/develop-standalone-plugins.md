@@ -20,7 +20,7 @@ Standalone plugins do not ship together with OneDev, and can be developed withou
    ![do-not-tick-simple-project-option](../images/develop-standalone-plugins/do-not-tick-simple-project-option.png)
 
 5. Click the next button to go to next page. If this is the first time you adding a OneDev plugin, you will need to click the _configure_ button to add OneDev remote archetype catalog. The catalog url is: 
-   https://artifact.pmease.com/artifactory/pmeaseRepo/archetype-catalog.xml. Apply and close the catalog adding dialog, Eclipse should list all archetypes relating to OneDev. If you added the catalog before, just input _io.onedev_ to filter the archetype
+   https://artifact.onedev.io/artifactory/onedev/archetype-catalog.xml. Apply and close the catalog adding dialog, Eclipse should list all archetypes relating to OneDev. If you added the catalog before, just input _io.onedev_ to filter the archetype
 
    ![add-archetype-catalog](../images/develop-standalone-plugins/add-archetype-catalog.png)
 
